@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(232, 249, 249);
+    margin: 0px;
+    font-family: "helvetica", sans-serif;
+ 
+}
+p{
+    text-align:justify;
+
+}
+
+.centered {
+   position: absolute;
+   top: 400px;
+   right: 580px;
+
+    color: rgb(218, 255, 117);
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.fridge {
+    position: absolute;
+    top: 200px;
+    right: 580px;
+    
+}
+
+.remember {
+    position: absolute;
+    top: 19300px;
+    right: 420px;
+    
+    font-size: 30px;
+    color: rgb(218,255,117);
+}
+
+.rodspace {
+    position: absolute;
+    top: 9000px;
+    right: 480px;
+    text-decoration: underline wavy;
+
+    font-size: 30px;
+    color: rgb(218,255,117);
+    
+}
+
+
+.rods {
+    font-weight: 100px;
+    position: absolute;
+    top: 19790px;
+    right: 650px;
+    
+
+    font-size: 40px;
+    color: rgb(218,255,117);
+
+    border: 2px solid rgb(218,255,117);
+    padding: 10px;
+    border-radius: 1000px;
+
+    
+}
+
+a:visited {
+color: pink
+}

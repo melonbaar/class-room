@@ -1,0 +1,80 @@
+body{
+    background-color: beige;
+    margin: 40px;
+    font-family: "helvetica", sans-serif;
+}
+
+img{
+max-width: 100%;
+width: 500px;
+
+}
+
+p{ 
+    color: blue;
+    background-color: bisque;
+    font-size: 20px;
+    
+    border: 2px solid dodgerblue;
+    border-radius: 2px;
+
+    padding: 30px;
+
+    max-width: 500px;
+
+    overflow: auto;
+
+    text-align:justify;
+    line-height:30px;
+
+    font-weight: lighter;
+}
+
+h1 {
+        color: dodgerblue;
+        background-color:beige;
+        font-size: 20px;
+    }
+    h1 {
+        color: dodgerblue;
+    }
+    
+.special {
+    color: dodgerblue;
+    background-color: beige;
+}
+/* css rules that are further down in the document have higher specificity */
+.neat {
+    color:dodgerblue;
+    background-color: beige;
+}
+
+.cool {
+    font-weight: bold;
+    text-decoration: underline wavy;
+    font-style: oblique;
+
+    color:mediumaquamarine;
+}
+
+.dim {
+    color: dodgerblue;
+    margin: 10px;
+    padding: 10px;
+
+    width: 200px;
+    height: 200px;
+}
+
+.spam {
+    background-color: darkkhaki;
+    padding:10px;
+    margin: 10px;
+}
+
+a{
+    color:mediumaquamarine
+}
+a:visited {
+    color:pink
+}
