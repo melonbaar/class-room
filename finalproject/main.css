@@ -42,17 +42,20 @@ animation: skies 10s infinite linear;
 .walls2 {
  left: -100vw;
   animation: skies 10s infinite linear;
+  height: 67vw;
+
     
     }
 
 .walls3 {
  left: -200vw;
   animation: skies 10s infinite linear;
+  height: 70vw;
     
     }
     
 
-.building2 {
+.building {
 position: absolute;
 background-color: transparent;
 width: 100vw;
@@ -61,6 +64,18 @@ top: -150px;
 z-index: 1;
 animation: skies 10s infinite linear;
 }
+
+.building2 {
+    left: -100vw;
+    animation: skies 10s infinite linear;
+    }
+    
+
+.building3 {
+        left: -200vw;
+        animation: skies 10s infinite linear;
+        }
+        
 
 .container {
     background-color: black;

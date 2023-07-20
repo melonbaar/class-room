@@ -83,6 +83,7 @@
     font-kerning: auto;
     position: absolute;
     bottom: -950px;
+    background-color: transparent;
     text-decoration: none;
     left: 0;
     animation: skies 20s infinite linear;
