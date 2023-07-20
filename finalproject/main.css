@@ -3,15 +3,18 @@
     margin: 0;
     overflow-x:hidden;
     overflow-y:hidden;
-    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
     
 }
 
 .sky {
     position: absolute;
-    animation: skies 400s infinite linear;
-    left: 0;
+    height: 100vh;
+    left: 0px;
+    width: 100vw;
+    animation: skies 800s infinite linear;
+
 }
 
 .sky2{
@@ -32,19 +35,19 @@ height: 70vw;
 top: -150px;
 z-index: 2;
 left:0;
-animation: skies 10s infinite linear;
+/* animation: skies 10s infinite linear; */
 
 }
 
 .walls2 {
  left: -100vw;
-  animation: skies 10s infinite linear;
+  /* animation: skies 10s infinite linear; */
     
     }
 
 .walls3 {
  left: -200vw;
-  animation: skies 10s infinite linear;
+  /* animation: skies 10s infinite linear; */
     
     }
     
@@ -56,11 +59,12 @@ width: 100vw;
 height: 60vw;
 top: -150px;
 z-index: 1;
-animation: skies 10s infinite linear;
+/* animation: skies 10s infinite linear; */
 }
 
 .container {
     background-color: black;
+    color: black;
     position: absolute;
     width: 100vw;
     height: 220px;
@@ -111,7 +115,7 @@ animation: skies 10s infinite linear;
 
 
 
-/* @keyframes skies {
+@keyframes skies {
     0% {
          transform:translate(0vw) rotate(0);
         left:0vw;
@@ -121,4 +125,4 @@ animation: skies 10s infinite linear;
          transform:translate(200vw) rotate(0);
         left:100vw;
     }
-} */
+}

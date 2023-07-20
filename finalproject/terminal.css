@@ -26,34 +26,38 @@
 .map1 {
     position: absolute;
     align-items: center;
-    width: 70vw;
-    height: 70vh;
-    left:0;
+    /* width: 70vw;
+    height: 70vh; */
+    left: -20vw;
+    top: 0px;
     z-index:3;
     overflow-x:hidden;
     overflow-y:hidden;
     object-fit: 100%;
+    scale:50%;
 
     
 }
 
 .map2 {
     position: absolute;
-    width: 70vw;
-    height: 70vh;
-    right: 0;
-    bottom: -500px;
+    /* width: 70vw;
+    height: 70vh; */
+    left: 0vw;
+    top: 750px;
     z-index:2;
     overflow-x:hidden;
     overflow-y:hidden;
+    scale:60%;
 }
 
 .next {
     position: absolute;
     width: 50vw;
     height: 60vh;
+    background-color: transparent;
     right: 0;
-    bottom: -1000px;
+    bottom: -1200px;
     z-index:2;
     padding: 50px;
 }
@@ -65,7 +69,7 @@
     width: 55vw;
     height: 60vh;
     left: 50vw;
-    bottom: -1100px;
+    bottom: -1300px;
     font-size: 18px;
     z-index: 3;
 }
@@ -78,7 +82,7 @@
     font-weight: bold;
     font-kerning: auto;
     position: absolute;
-    bottom: -800px;
+    bottom: -950px;
     text-decoration: none;
     left: 0;
     animation: skies 20s infinite linear;

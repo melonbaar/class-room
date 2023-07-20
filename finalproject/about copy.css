@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 30px;
     overflow-x:hidden;
+    overflow-y:hidden;
     background-color: black;
     
 }
@@ -19,13 +20,13 @@ body {
 }
 
 .real1 {
-    width: 40vw;
-    height: 25vw;
+    width: 20vw;
+    height: 10vw;
 }
 
 .real2 {
-    width: 40vw;
-    height: 25vw;
+    width: 20vw;
+    height: 10vw;
 }
 
 .back {
@@ -34,11 +35,10 @@ body {
     font-weight: bold;
     font-kerning: auto;
     position: absolute;
-    top: 720px;
+    top: 600px;
     text-decoration: none;
     left: 0;
     animation: skies 20s infinite linear;
-    background-color: transparent;
 }
 
 
