@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-color: black;
+    /* background-image: url(sky.png); */
+    
+}
+
+.sky {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    animation: skies 400s infinite linear;
+}
+
+.sky2 {
+   left: -100vw;
+    animation: skies 400s infinite linear;
+}
+
+.sky3 {
+    left: -200vw;
+     animation: skies 400s infinite linear;
+ }
+ 
+
+.cloudnew {
+    position: absolute;
+    background: transparent;
+    height: 400px;
+    width: 1000px;
+    max-width: 100%;
+    top: 100px;
+    left:0px;
+    opacity: 30%;
+    animation: skies 200s infinite;
+    z-index: 10;
+
+}
+
+.field {
+    position: absolute;
+    background: transparent;
+    height: 100vh;
+    width: 1000vw;
+    max-width: 100%;
+    top: 0px;
+    left:0vw;
+    animation: skies 10s infinite linear;
+    z-index: 7;
+
+}
+
+
+.field2 {
+    animation: skies 10s infinite linear;
+    left:-100vw;
+  
+}   
+
+.field3 {
+    animation: skies 10s infinite linear;
+    left:-200vw;
+   
+}   
+
+.mountain {
+    position: absolute;
+    background: transparent;
+    height: 100vh;
+    width: 1000vw;
+    max-width: 100%;
+    top: 0px;
+    left:0vw;
+    animation: skies 20s infinite linear;
+    z-index: 2;
+
+}
+
+
+.mountain2 {
+    animation: skies 20s infinite linear;
+    left:-100vw;
+  
+}   
+
+.mountain3 {
+    animation: skies 20s infinite linear;
+    left:-200vw;
+   
+}   
+
+
+.fence {
+    position: absolute;
+    background: transparent;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    bottom: -10px;
+    left:0vw;
+    animation: skies 10s infinite linear;
+    z-index: 10;
+
+}
+
+
+.fence2 {
+    animation: skies 10s infinite linear;
+    left:-100vw;
+}   
+
+.fence3 {
+    animation: skies 10s infinite linear;
+    left:-200vw;
+}   
+
+
+.cow {
+    animation: skies 10s infinite linear;
+    left:0;
+    position: absolute;
+    background: transparent;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    bottom: -10px;
+    left:0vw;
+    z-index: 11;
+}
+
+.cow2 {
+    animation: skies 10s infinite linear;
+    left:-100vw;
+}
+
+.cow3 {
+     animation: skies 10s infinite linear;
+    left:-200vw;
+}
+
+.back {
+    font-size: 24px;
+    background-color: transparent;
+    color:white;
+    font-weight: bold;
+    font-kerning: auto;
+    position: absolute;
+    bottom: 4vw;
+    right:4vw;
+    text-decoration: none;
+    z-index:20;
+}
+
+
+@keyframes skies {
+    0% {
+         transform:translate(0vw) rotate(0);
+        /* left:0vw; */
+    }
+
+    100% {
+         transform:translate(200vw) rotate(0);
+        /* left:100vw; */
+    }
+}

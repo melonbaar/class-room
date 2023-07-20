@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 30px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-color: black;
+    
+}
+
+.logo {
+    position: fixed;
+    height: 10vh;
+    width: 11vw;
+    left:0vw;
+}
+
+body {
+    color: white;
+    text-align: center;
+}
+
+.real1 {
+    width: 20vw;
+    height: 10vw;
+}
+
+.real2 {
+    width: 20vw;
+    height: 10vw;
+}
+
+.back {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-kerning: auto;
+    position: absolute;
+    top: 600px;
+    text-decoration: none;
+    left: 0;
+    animation: skies 20s infinite linear;
+}
+
+
+@keyframes skies {
+    0% {
+         transform:translate(0vw) rotate(0);
+        left:0vw;
+    }
+
+    100% {
+         transform:translate(200vw) rotate(0);
+        left:100vw;
+    }
+}
